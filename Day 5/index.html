@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css</title>
+
+    <!-- local css  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+      /* selector{
+            property:value;
+        } */
+
+      /* selector types: 
+        1.class
+        2.id
+        3.element
+        4.grouping
+        5.attribute
+        6.universal 
+        8.pseudo */
+
+      /* css units types: 
+        1.px 
+        2.rem 
+        3.em 
+        4.% 
+        5.vw 
+        6.vh */
+
+      .course {
+        /* background-color: lightblue; */
+        /* color: blue; */
+        margin: 20px;
+        /* margin-top: 20px;
+            margin-bottom: 30px;
+            margin-left: 40px;
+            margin-right: 40px; */
+        /* margin: top right bottom left; */
+
+        /* margin: 20px 30px 40px 25px; */
+        /* margin: 20px 30px; */
+
+        padding: 10px;
+        /* font-family: cursive; */
+        font-family: "Cedarville Cursive", cursive;
+      }
+
+      .circle {
+        height: 250px;
+        width: 250px;
+        /* border: 2px solid; */
+        border-radius: 50%;
+
+        box-shadow: 0px 0px 40px 14px gray;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- class => 12 class => 35 students
+    id => unique => roll no     -->
+
+    <!-- 1.inline css
+    2.internal css
+    3.external css -->
+    <div class="course">
+      <img
+        src="https://www.mindrisers.com.np/static/Images/courses/Data-Science.png"
+        width="200"
+        alt="data-science"
+      />
+      <h4> <i class="fa-solid fa-house"></i> Full Stack with Js 
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit perspiciatis voluptatem ex ratione distinctio? Similique consequatur commodi nihil velit quo amet! Explicabo dignissimos tempore eius debitis quo, animi itaque magni.
+      </h4>
+      <span>3 months</span> <br />
+      <button style="color: aqua">Save</button>
+    </div>
+
+    <div class="circle">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aspernatur enim distinctio. Quia, reiciendis aliquid amet accusamus ut facere impedit quae consequatur ducimus ratione deleniti aliquam hic maxime eveniet cupiditate.
+    </div>
+  </body>
+</html>

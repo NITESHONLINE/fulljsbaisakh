@@ -1,0 +1,6 @@
+.course{
+    border: 2px solid gray;
+    /* border: 2px dotted red; */
+    /* border: 2px dashed red; */
+    border-radius:10px;
+}
