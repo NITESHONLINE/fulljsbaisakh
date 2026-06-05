@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            border: 4px solid red;
+            height: 500px;
+            display: flex;
+            /* justify-content: center; */
+            /* justify-content: end; */
+            /* justify-content: start; */
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+
+            /* flex-wrap:wrap; */
+            /* flex-wrap:wrap-reverse; */
+            /* flex-wrap:nowrap; */
+
+            align-content: center;
+            /* align-content: end; */
+            /* align-content: start; */
+            /* align-content: space-between; */
+            /* align-content: space-around; */
+            /* align-content: space-evenly; */
+
+            /* gap:2rem; */
+            /* row-gap:2rem; */
+            column-gap:2rem;
+
+            /* align-items: center; */
+            /* align-items: end; */
+            /* align-items: start; */
+
+            /* justify=> row 
+            align => column  */ 
+        }
+ 
+        .child{
+            border: 2px solid;
+            height: 250px;
+            width: 250px;
+            font-size: 2rem;
+            text-align: center;
+            align-content: center;
+        }
+        #child8{
+            order: -2;
+            flex-grow: 1;
+        }
+        #child4{
+            order: -1;
+            flex-grow: 2;
+        }
+        #child1{
+            flex-shrink: 2;
+            background-color: gray;
+            align-self: center;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    
+
+    <!-- flexbox => row, column  -->
+
+    <div class="parent">
+        <div class="child" id="child1">1</div>
+        <div class="child" id="child2">2</div>
+        <div class="child" id="child3">3</div>
+        <div class="child" id="child4">4</div>
+        <div class="child" id="child5">5</div>
+        <div class="child" id="child6">6</div>
+        <div class="child" id="child7">7</div>
+        <div class="child" id="child8">8</div>
+    </div>
+
+
+
+
+</body>
+</html>
