@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css animation</title>
+    <style>
+      .movebox {
+        height: 250px;
+        width: 250px;
+        background-color: lightgreen;
+        /* transition: all 2s; */
+
+        /* animation: ; */
+
+        animation-name: movebox;
+        animation-duration: 2s;
+        /* animation-delay: 2s; */
+        animation-iteration-count: infinite;
+      }
+      /* .movebox:hover{
+            margin-top: 500px;
+        } */
+      /* @keyframes movebox {
+            from{
+                margin-top: 0;
+                background-color: aqua;
+            } to{
+                margin-top: 300px;
+                background-color: black;
+            }
+        } */
+
+      @keyframes movebox {
+        0% {
+        }
+        25% {
+        }
+        50% {
+        }
+        75% {
+        }
+        100% {
+          margin-top: 300px;
+          background-color: black;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="movebox"></div>
+  </body>
+</html>
